@@ -1,0 +1,17 @@
+using System;
+
+namespace CSharpFundamentals
+{
+    class WhileLoop
+    {
+        static void Main(string[] args)
+        {
+            int number = 10;
+            while(number < 20) {
+                Console.WriteLine("Value of nummber: {0}", number);
+                number++;
+            }
+            Console.ReadLine();
+        }
+    }
+}
